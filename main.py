@@ -19,4 +19,13 @@ visualize_reduction(X_pca, X_tsne, X_umap, y)
 print("\n🚀 Model Training & Evaluation...")
 best_cat, X_train, X_test, y_train, y_test = train_model()
 
-print("\n🎯 Task Completed Successfully!")
+print("\n🎯 Task Completed Successfully!")# Model Performance Summary
+
+
+
+
+# ✔ Strengths:
+
+# High R² Score (0.9777) → Your model explains most of the variance.
+# Low MAE & RMSE → Minimal prediction errors.
+# PCA Variance Explained: 96.01% → Effective dimensionality reduction.
