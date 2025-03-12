@@ -28,4 +28,4 @@ print("\n🎯 Task Completed Successfully!")# Model Performance Summary
 
 # High R² Score (0.9777) → Your model explains most of the variance.
 # Low MAE & RMSE → Minimal prediction errors.
-# PCA Variance Explained: 96.01% → Effective dimensionality reduction.
+# PCA Variance Explained: 96.01% →f Effective dimensionality reduction.
