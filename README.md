@@ -1,6 +1,9 @@
 📊 ImagoAI Assignment
 This repository contains the implementation of spectral data analysis and regression modeling for the ImagoAI Assignment. It includes data preprocessing, dimensionality reduction (PCA & t-SNE), model training, evaluation, and visualization.
-
+Results & Evaluation
+Mean Absolute Error (MAE): 0.1777
+Root Mean Squared Error (RMSE): 0.2172
+R² Score: 0.9777
 ---------------------------------
 
 
@@ -59,7 +62,3 @@ Activate the virtual environment:
 
 
 
-Results & Evaluation
-Mean Absolute Error (MAE): 0.1777
-Root Mean Squared Error (RMSE): 0.2172
-R² Score: 0.9777
