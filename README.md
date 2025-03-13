@@ -15,21 +15,12 @@ files such as
 -------------------------------------------
 
 ML_Task_ImagoAI/
-│── main.py                # Main script for training & evaluation
-│── requirements.txt       # List of dependencies
-│── data/                  # Folder for datasets
-│── models/                # Trained models
-│── reports/               # Analysis & results
-│── README.md              # Documentation (this file)
-│── .gitignore             # Ignored files
-│── notebooks/             # Jupyter notebooks for EDA and analysis
+
 │── src/                   # Source code for preprocessing, training, etc.
 │   │── preprocess.py      # Data preprocessing script
 │   │── train_model.py     # Model training script
 │   │── __init__.py        # Initialization file
 │   │── __pycache__/       # Python cache files
-│── catboost_info/         # CatBoost training logs and info
-│── ml_env/                # Virtual environment for the project
 
 
 
@@ -64,3 +55,11 @@ Activate the virtual environment:
 
 4. Execute the main script:
     python main.py
+
+
+
+
+Results & Evaluation
+Mean Absolute Error (MAE): 0.1777
+Root Mean Squared Error (RMSE): 0.2172
+R² Score: 0.9777
