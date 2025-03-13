@@ -53,11 +53,15 @@ def train_model():
 
     # Visualize actual vs. predicted values
     plt.figure(figsize=(8, 6))
-    sns.scatterplot(x=y_test, y=preds, alpha=0.6)
-    plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red', linestyle='--')  # Diagonal line
+    sns.scatterplot(x=y_test, y=preds, alpha=0.6, label='Predicted', color='blue')  # Predicted values in blue
+    plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red', linestyle='--', label='Perfect Prediction')  # Diagonal line for perfect prediction
     plt.xlabel('Actual Values')
     plt.ylabel('Predicted Values')
     plt.title('Actual vs. Predicted Values')
+
+    # Add legend
+    plt.legend()
+
     plt.show()
 
     return best_cat, X_train, X_test, y_train, y_test
@@ -68,7 +72,6 @@ if __name__ == "__main__":
 
 # Model Performance Summary
 # ✔ Strengths:
-
-# High R² Score (0.9777) → Your model explains most of the variance.
-# Low MAE & RMSE → Minimal prediction errors.
-# PCA Variance Explained: 96.01% → Effective dimensionality reduction.
+# - High R² Score (0.9777) → Your model explains most of the variance.
+# - Low MAE & RMSE → Minimal prediction errors.
+# - PCA Variance Explained: 96.01% → Effective dimensionality reduction.
